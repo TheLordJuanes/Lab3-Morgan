@@ -104,12 +104,12 @@ public class Main {
     String commercialRegisterNum=lector.nextLine();
     System.out.print("Registry Expedition Date: ");
     String registryExpeditionDate=lector.nextLine();
-    System.out.print("Type of client: ");
+    System.out.println("Type of client: ");
     System.out.println("Type 'N' if it is a Normal client.");
     System.out.println("Type 'S' if it is a Silver client.");
     System.out.println("Type 'G' if it is a Gold client.");
     System.out.println("Type 'P' if it is a Platinum client.");
-    char typeClient=lector.nextLine().toUpperCase().charAt(0);;
+    char typeClient=lector.nextLine().toUpperCase().charAt(0);
     System.out.println();
     double kilosTranspOverTime=0;
     double moneyPayedOverTime=0;

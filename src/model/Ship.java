@@ -96,7 +96,7 @@ public class Ship {
 
 	/** Name: loadTheShip
 	 * Method used to load the ship.
-	 * @param numBoxesToTransp - number of boxes to transport - numBoxesToTransp = int, numBoxesToTransp != 0
+	 * @param numBoxesToTransp - number of boxes to transport - numBoxesToTransp = int
 	 * @param boxWeight - boxes weight - boxWeight = double
 	 * @param typeLoad - type of a load - typeLoad = char, typeLoad != null, typeLoad != ''
 	 * @param owner - load(s) owner - owner = Client, owner != null

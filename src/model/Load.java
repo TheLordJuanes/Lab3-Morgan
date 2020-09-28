@@ -164,13 +164,13 @@ public class Load {
 	 */
 	public double surpriseDiscountAssignment() {
 		double discount=0;
-		if (owner.getTypeClient()==owner.TYPE_CLIENT1)
+		if (owner.getTypeClient()==Client.TYPE_CLIENT1)
 			discount=0;
-		else if (owner.getTypeClient()==owner.TYPE_CLIENT2 && getTypeLoad()==TYPE_LOAD1)
+		else if (owner.getTypeClient()==Client.TYPE_CLIENT2 && getTypeLoad()==TYPE_LOAD1)
 			discount=0.015;
-		else if (owner.getTypeClient()==owner.TYPE_CLIENT3 && (getTypeLoad()==TYPE_LOAD1 || getTypeLoad()==TYPE_LOAD2))
+		else if (owner.getTypeClient()==Client.TYPE_CLIENT3 && (getTypeLoad()==TYPE_LOAD1 || getTypeLoad()==TYPE_LOAD2))
 			discount=0.03;
-		else if (owner.getTypeClient()==owner.TYPE_CLIENT4)
+		else if (owner.getTypeClient()==Client.TYPE_CLIENT4)
 			discount=0.05;
 		return discount;
 	}
